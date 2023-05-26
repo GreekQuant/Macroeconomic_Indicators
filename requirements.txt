@@ -1,4 +1,0 @@
-openbb
-plotly
-pandas
-numpy
