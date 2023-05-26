@@ -1,0 +1,21 @@
+
+#MainMenu {visibility: visible;}
+
+footer {visibility: hidden;}
+
+header {visibility: hidden;}
+
+h1 {text-align: center;
+    margin: -100px;}
+
+.css-1v0mbdj {margin: -40px;} /* Deloitte image margin */
+
+
+/* editing the upload widget */
+
+.css-paap06-EmotionIconBase {color: #333333;} /* upload icon color */
+
+.css-9ycgxx {color: #333333;} /* drag and drop file here */
+
+.css-61rn6a {color: #333333;} /* Limit 200MB ... */
+
