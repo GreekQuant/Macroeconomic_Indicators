@@ -169,6 +169,7 @@ st.markdown("#")
 fetch_indicator_data = st.button("Source and Plot Data", on_click=Fetch_Indicators_Data, args=list(indicators_to_plot_))
 
 if fetch_indicator_data or st.session_state.fetch_plot_indicators_btn:
-    CreateGraphsAndMetrics(st.session_state.indicators_, the_parameters_)
+    with st.spinner('Data and graphs loading...'):
+        CreateGraphsAndMetrics(st.session_state.indicators_, the_parameters_)
     TriggerDownloadButton(st.session_state.indicators_)
     
