@@ -10,7 +10,7 @@ but mainly:
 1. openbb
 2. streamlit
 
-Currently openbb is used to source the macroeconomic data and streamlit for the front-end as well as the cloud hosting. To access the web app please follow the `link` below:
+Currently openbb is used to source the macroeconomic data **for Greece** and streamlit for the front-end as well as the cloud hosting. To access the web app please follow the `link` below:
 
 https://macroeconomic-indicators-greece.streamlit.app/
 
