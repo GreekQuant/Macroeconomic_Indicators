@@ -150,7 +150,6 @@ st.set_page_config(page_title="Financial Risk Measurement Team",
                    page_icon = "favicon.png",
                    layout="wide",)
 
-st.image("deloitte.svg")
 st.title("Macroeconomic Data for Greece")
 
 with open("style.css") as css:
