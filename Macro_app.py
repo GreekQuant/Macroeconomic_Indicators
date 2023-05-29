@@ -104,7 +104,6 @@ def CreateGraphsAndMetrics(chosen_indicators:list, parameters_df):
 
     st.session_state.time_series_gather_for_dl = copy.deepcopy(st.session_state.time_series_gather)
     for i, elem in enumerate(chosen_indicators):
-        
         st.session_state.time_series_gather_for_dl[i][f'{elem}_diff'] = st.session_state.time_series_gather_for_dl[i][f'{elem}'].diff()
         st.session_state.time_series_gather_for_dl[i][f'{elem}_pct_change'] = st.session_state.time_series_gather_for_dl[i][f'{elem}'].pct_change()
 
