@@ -146,7 +146,7 @@ if "time_series_gather_for_dl" not in st.session_state:
 
 
 st.set_page_config(page_title="Financial Risk Measurement Team",
-                   page_icon = "favicon.png",
+                   page_icon = "favicon_new.png",
                    layout="wide",)
 
 st.title("Macroeconomic Data for Greece")
